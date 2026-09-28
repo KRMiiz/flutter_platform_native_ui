@@ -1,0 +1,22 @@
+name: flutter_platform_native_ui
+description: Native iOS UI components for Flutter, backed by real UIKit views.
+version: 0.0.1
+repository: https://github.com/KRMiiz/flutter_platform_native_ui
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+  flutter: '>=3.27.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+flutter:
+  plugin:
+    platforms:
+      ios:
+        pluginClass: FlutterPlatformNativeUiPlugin
